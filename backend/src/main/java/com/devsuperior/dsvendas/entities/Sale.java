@@ -10,8 +10,6 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
-import org.hibernate.annotations.JoinColumnOrFormula;
-
 @Entity
 @Table(name = "tb_sales")
 public class Sale {
@@ -24,7 +22,7 @@ public class Sale {
 	private LocalDate date;
 	
 	@ManyToOne
-	@JoinColumn(name = "seller_id")
+	@JoinColumn(name = "seller_id")	
 	private Seller seller;
 	
 	public Long getId() {
