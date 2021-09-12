@@ -11,6 +11,7 @@ import com.devsuperior.dsvendas.entities.Sale;
 import com.devsuperior.dsvendas.repositories.SaleRepository;
 import com.devsuperior.dsvendas.repositories.SellerRepository;
 
+
 @Service
 public class SaleService {
 	
